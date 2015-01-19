@@ -8,6 +8,9 @@
 	.main_image{
 		background-size: 100% 30% !important;
 	}
+	.logo{
+
+	}
 
  }
 
@@ -16,10 +19,6 @@
  @media (min-width: 480px) and (max-width: 568px) {
 	.main_image{
 		background-size: 100% 50% !important;
-	}
-		body{
-		padding-top: 50px;
-		padding-bottom: 50px;
 	}
 
  }
@@ -42,11 +41,86 @@
 
  }
 
- 	/* 768 to 1024 */
+ 	/* 768 to 1024  ipad portrait */
 
  @media (min-width: 768px) and (max-width: 1024px) {
-	.main_image{
-		background-size: 100% 50% !important;
+ 	.main_image{
+ 		background-size: 127% 100%;
+ 		background-position: center;
+ 		height: 497px;
+ 	}
+	.navbar-form{
+		padding: 0;
+	}
+	.login{
+		border-radius: 5px;
+		width: 80%;
+		height: 40px;
+		margin-top: 0;
+		font-size: 1.2em;
+	}
+	.logo{
+		margin-top: 35%;
+		width: 90%;
+	}
+
+	.jumbotron h1{
+		font-size: 45px;
+	}
+
+	.pink p{
+		font-size: 17px;
+		line-height: 17px;
+	}
+
+	.pink a{
+		margin-top: 30%;
+	}
+
+	.green h1, .red h1{
+		font-size: 45px;
+		line-height: 20px;
+		margin: 0;
+		padding: 0;
+	}
+
+	.green h2, .red h2{
+		font-size: 20px;
+	}
+
+	.round, .round2{
+		line-height: 30px;
+		font-size: 10px;
+		padding-left: 7px;
+		padding-right: 7px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		vertical-align: middle;
+		color: #fff;
+		margin: 4px;
+	}
+
+	.red li, .green li{
+		font-size: 1em;
+	}
+
+	.line{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.green_grad li{
+		line-height: 25px;
+	}
+
+	.green_grad ul{
+		margin-top: 10%;
+	}
+
+	.col-md-2{
+		min-height: 0px;
+		padding: 0;
 	}
 
  }
