@@ -8,10 +8,7 @@
 	.main_image{
 		background-size: 100% 30% !important;
 	}
-	body{
-		padding-top: 50px;
-		padding-bottom: 50px;
-	}
+
  }
 
 	/* 480 to 568 */
@@ -24,6 +21,7 @@
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
+
  }
 
 	/* 568 to 600 */
@@ -32,10 +30,7 @@
 	.main_image{
 		background-size: 100% 50% !important;
 	}
-	body{
-		padding-top: 50px;
-		padding-bottom: 50px;
-	}
+
  }
 
  	/* 600 to 768 */
@@ -44,10 +39,7 @@
 	.main_image{
 		background-size: 100% 50% !important;
 	}
-	body{
-		padding-top: 50px;
-		padding-bottom: 50px;
-	}
+
  }
 
  	/* 768 to 1024 */
@@ -56,10 +48,7 @@
 	.main_image{
 		background-size: 100% 50% !important;
 	}
-	body{
-		padding-top: 50px;
-		padding-bottom: 50px;
-	}
+
  }
 
  	/* 1024 to desktop */

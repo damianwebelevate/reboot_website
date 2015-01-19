@@ -2,7 +2,6 @@
    Author's custom styles
    ========================================================================== */
 /*fonts to be used on site*/
-/*@import(bootstrap.min.css);*/
 @import url(http://fonts.googleapis.com/css?family=Nunito:400);
 body{
 	font-family: 'Nunito', 'Sans-serif';
@@ -419,4 +418,23 @@ margin: 4px;
 }
 .breadcrumb a:hover{
   text-decoration: none;
+}
+
+
+/* ==========================================================================
+   Responsive Menu
+   ========================================================================== */
+
+
+.menu_button{
+  width: 30px;
+  margin-right: 50px;
+}
+
+.logo{ 
+  width: 100%;
+  height: auto;
+  background-size: contain;
+  position: relative;
+  margin-top: 20px;
 }
