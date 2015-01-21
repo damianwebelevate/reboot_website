@@ -72,7 +72,6 @@ a:hover{
 }
 
 button, .btn-md{
-	width: 100px;
 	margin: 5px;
 	color: white;
 	font-size: 17px;
@@ -237,9 +236,9 @@ button, .btn-md{
   padding-bottom: 0px;
 }
 
-.login span{
+/*.login span{
 	font-size: 1.3em;
-}
+}*/
 
 .green{
 	background-color: #ffffff;
@@ -320,7 +319,7 @@ margin: 4px;
 
 .red{
   background-color: #FFFFFF;
-  margin-top: 25px;
+  margin-top: 5px;
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -425,16 +424,8 @@ margin: 4px;
 .line{
   width: 100%;
   min-height: 1px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 2px solid #fff;
 }
-
-.line2{
-  width: 100%;
-  min-height: 1px;
-  border-bottom: 1px solid #fff;
-  margin-bottom: 20px;
-}
-
 
 .green_grad li{
   line-height: 45px;
@@ -473,15 +464,80 @@ margin: 4px;
    ========================================================================== */
 
 
-.menu_button{
+/*.menu_button{
   width: 30px;
   margin-right: 50px;
-}
+}*/
 
-.logo{ 
+/*.logo{ 
   width: 100%;
   height: auto;
-  background-size: contain;
-  position: relative;
   margin-top: 20px;
+}*/
+
+
+/* ==========================================================================
+   iphone and small devices css
+   ========================================================================== */
+
+   .iphone{
+    background: url("../img/iphone-hero-image.png") no-repeat; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 799px;
+    padding: 0px;
+    margin: 0px;
+   }
+
+
+.menu_button{
+  width: 15%;
+  height: auto;
+}
+
+.logo, .menu_button{
+  display: inline-block;
+}
+
+/* red */
+
+.round3{
+  background-color: #E75460;
+  border-radius: 50px;
+  text-align: left;
+  line-height: 45px;
+  font-size: 17px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  vertical-align: middle;
+  color: #fff;
+  margin: 4px;
+}
+
+/*green*/
+
+.round4{
+  background-color: #73BA74;
+  border-radius: 50px;
+  text-align: left;
+  line-height: 45px;
+  font-size: 17px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  vertical-align: middle;
+  color: #fff;
+  margin: 4px;
+}
+
+
+.left_right{
+  margin: 0 auto;
+  padding-left: 50px;
 }

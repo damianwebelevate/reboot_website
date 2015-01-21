@@ -27,13 +27,55 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-
-
+<!-- ======================================================================================
+        visible iphone android small device from 320px to 480px
+======================================================================================= -->
+<div class="jumbotron iphone">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <nav class="navbar" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed menu_button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span style="color: #000; font-size: 20px;" class="glyphicon glyphicon-align-justify"></span>
+          </button>
+          <div class="col-xs-10 col-xs-offset-2">
+                  <a role="button" href="index.html"><img class="logo" src="img/logo.png"/></a>
+                </div>
+        </div> <!-- close navbar header -->
+        <!-- menu itself -->
+        <div id="navbar" class="navbar-collapse collapse no_padding">
+                <div class="col-xs-4 pull-right no_padding">
+                  <form class="navbar-form pull-right" role="form">
+                    <div class="form-group">
+                      <button class="btn btn-sign_up btn-xs" role="button">Sign Up</button>
+                    </div>
+                    <div class="form-group">
+                      <button class="btn btn-log_in btn-xs" role="button">Login</button>
+                    </div> 
+                  </form>
+                </div> <!-- close pull-right only visible on small devices -->
+              </div><!--/.navbar-collapse -->
+          </nav>
+        </div><!-- close menu -->
+<div class="clearfix"></div>
+        <!-- quick launch buttons -->
+        
+        <div class="col-xs-10 col-xs-offset-2 no_padding">
+              <button class="btn login">Find jobs matches<span class="glyphicon glyphicon-circle-arrow-down pull-right"></span></button>
+              <div class="two"></div>
+              <button class="btn login">find jobs by location<span class="glyphicon glyphicon-globe pull-right"></span></button>
+        </div><!-- close quick launch -->
+    </div><!-- close row-fluid -->
+  </div><!-- close container-fluid -->
+</div><!-- close jumbotron iphone -->
+<div class="clearfix"></div>
+<!-- end iphone and small devices -->
 
 <!-- ======================================================================================
         the main image on the page housing logo navigation and quick launch buttons
 ======================================================================================= -->
-      <div class="jumbotron main_image">
+      <div class="jumbotron main_image hidden-xs">
         <div class="container-fluid no_padding">
           <nav class="navbar hidden-lg hidden-md" role="navigation">
               <div class="navbar-header">
@@ -171,7 +213,7 @@
         <li><span class="round2">3</span>View jobs by location</li>
       </ul>
       <a href="#" class="btn login_red" role="button" >find your matches</a>
-      <img src="img/job-seeker-profile.png" style="float: left; width: 100%; height: auto;"/>
+      <img src="img/job-seeker-profile.png"/>
     </div>
     <div class="col-sm-6 green  top_bot pull_right">
       <h1>Employers</h1>
@@ -214,97 +256,94 @@
                     <li>Track jobs that you have applied for</li>
                     <li>Ask questions on our forum</li>
                   </ul>
-                  
-                </div>
-                <div class="col-md-2">
-                </div>
-                <div class="col-md-4 col-sm-5">
-                  <h2>Employers</h2>
-                  <div class="line"></div>
-                  <ul>
-                    <li>Advertise jobs with minimum effort</li>
-                    <li>Review job seekers profiles that are relevant to the job</li>
-                    <li>Contact job seekers</li>
-                    <li>Receive applications</li>
-                    <li>Quickly Post and Withdraw Job Advertisments</li>
-                    <li>Three simple price plans or once off payment</li>
-                    <li>Up to the minute data...Live</li>
-                  </ul>
-                  
-                  </div>
-                  <div class="col-md-1 col-sm-1">
-                    <img src="img/employer-icon.png" style="float: right;" />
-                </div>
-<div class="clearfix"></div>
-                <div class="col-md-5 col-sm-6 top_bot">
-                  <p style="text-align: center;"><a href="#" role="button" class="btn btn-white">sign up now</a></p>
-                  </div>
-                  <div class="col-md-2">
-                  </div>
                   <div class="col-md-5 col-sm-6 top_bot">
                   <p style="text-align: center;"><a href="#" role="button" class="btn btn-white">sign up now</a></p>
                   </div>
-         </div> <!-- close col-12 -->
-      </div><!-- close container-fluid -->
-  </div><!-- close jumbotron -->
+                </div>
+                <div class="col-md-2">
+                </div>
+                  <div class="col-md-1 col-sm-1 pull-right">
+                    <img src="img/employer-icon.png" />
+                  </div>
+                  <div class="col-md-4 col-sm-5">
+                    <h2>Employers</h2>
+                    <div class="line"></div>
+                    <ul>
+                      <li>Advertise jobs with minimum effort</li>
+                      <li>Review job seekers profiles that are relevant to the job</li>
+                      <li>Contact job seekers</li>
+                      <li>Receive applications</li>
+                      <li>Quickly Post and Withdraw Job Advertisments</li>
+                      <li>Three simple price plans or once off payment</li>
+                      <li>Up to the minute data...Live</li>
+                    </ul>
+                    <div class="col-md-5 col-sm-6 top_bot">
+                    <p style="text-align: center;"><a href="#" role="button" class="btn btn-white">sign up now</a></p>
+                    </div>
+                  </div>
+
+<div class="clearfix"></div>
+            </div> <!-- close col-12 -->
+          </div><!-- close container-fluid -->
+      </div><!-- close jumbotron -->
 <div class="clearfix"></div>
 <!-- ======================================================================================
         second last section on page (pink)
 ======================================================================================= -->
-  <div class="jumbotron pink" style="padding-top: 30px; padding-bottom: 50px;">
-    <div class="container-fluid">
-          <div class="row-fluid">
-            <div class="col-md-4 col-sm-5">
-              <h1>Help & Tips</h1>
-              <div class="line2" ></div>
-              <p>Search for jobs by category</p>
-              <p>Search for jobs using geo-location</p>
-              <p>Create a user profile quickly</p>
+      <div class="jumbotron pink" style="padding-top: 30px; padding-bottom: 50px;">
+        <div class="container-fluid">
+              <div class="row-fluid">
+                <div class="col-md-4 col-sm-5">
+                  <h1>Help & Tips</h1>
+                  <div class="line2" ></div>
+                  <p>Search for jobs by category</p>
+                  <p>Search for jobs using geo-location</p>
+                  <p>Create a user profile quickly</p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                  <img src="img/logo.png" style="width: 100%; height: auto;" />
+               </div>
+                <div class="col-md-4 col-sm-3">
+                  <div class="top_bot pull-right">
+                  <img src="img/facebook-icon.png" />
+                  <img src="img/twitter-icon.png" />
+                  <h2>Find US on</h2>
+                </div>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4 col-sm-4">
-              <img src="img/logo.png" style="width: 100%; height: auto;" />
-           </div>
-            <div class="col-md-4 col-sm-3">
-              <div class="top_bot pull-right">
-              <img src="img/facebook-icon.png" />
-              <img src="img/twitter-icon.png" />
-              <h2>Find US on</h2>
-            </div>
-            </div>
-          </div>
         </div>
-    </div>
 
-  <div class="clearfix"></div>
-<!-- ======================================================================================
-        last section on page (pink)
-======================================================================================= -->
-  <div class="jumbotron pink" style="padding-top: 50px;">
-  <div class="container-fluid">
-    <ul class="breadcrumb" style="text-transform: uppercase; color: #fff;">
-      <li><a href="#">find job matches</li>
-      <li><a href="#">find jobs by location</li>
-      <li><a href="#">products</li>
-      <li><a href="#">about us</li>
-      <li><a href="#">terms & conditions</li>
-    </ul>
-  </div>
-      </div> <!-- /container -->       
-  <div class="clearfix"></div>
+      <div class="clearfix"></div>
+    <!-- ======================================================================================
+            last section on page (pink)
+    ======================================================================================= -->
+      <div class="jumbotron pink" style="padding-top: 50px;">
+      <div class="container-fluid">
+        <ul class="breadcrumb" style="text-transform: uppercase; color: #fff;">
+          <li><a href="#">find job matches</li>
+          <li><a href="#">find jobs by location</li>
+          <li><a href="#">products</li>
+          <li><a href="#">about us</li>
+          <li><a href="#">terms & conditions</li>
+        </ul>
+      </div>
+          </div> <!-- /container -->       
+      <div class="clearfix"></div>
 
 
-  <div class="verticle" style="color: pink; text-align: center;"><h2>&copy 2015 jobmatch.ie<h2></div>
-
+      <div class="verticle" style="color: pink; text-align: center;"><h2>&copy 2015 jobmatch.ie<h2></div>
 
 
 
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-          <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
 
-          <script src="js/vendor/bootstrap.min.js"></script>
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+              <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
 
-          <script src="js/plugins.js"></script>
-          <script src="js/main.js"></script>
+              <script src="js/vendor/bootstrap.min.js"></script>
+
+              <script src="js/plugins.js"></script>
+              <script src="js/main.js"></script>
 
           <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
           <script>
@@ -318,6 +357,6 @@
 
 
 
-          <h1 style="font-size: 20em;">hi hi hi</h1>
+ 
     </body>
 </html>

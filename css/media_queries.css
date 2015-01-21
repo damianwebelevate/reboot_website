@@ -3,47 +3,195 @@
    ========================================================================= */
 
 
-   /* 320px x 480px */
-@media (min-width: 320px) and (max-width: 480px) {
+/* =========================================================================
+	320 to 479
+   ========================================================================= */
+@media (min-width: 320px) and (max-width: 479px) {
 	.main_image{
 		background-size: 100% 30% !important;
 	}
 	.logo{
+		width: 43%;
+		height: auto;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+	.navbar-header{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.iphone{
+		height: 504px;
+		width: 100%;
+		background-position: center center;
+	}
+	.pink h1{
+		text-align: center;
+		font-size: 2em;
+	}
+	.pink p{
+		text-align: center;
+		font-size: 16px;
+		line-height: 16px;
+	}
+	.pink a{
+		margin-top: 0;
+	}
 
+	.red h1, .green h1, .green_grad h1{
+		font-size: 2em;
+		font-weight: 700;
+		line-height: 20px;
+		margin-bottom: 0;
+		text-align: left;
+	}
+
+	.red, .green{
+		padding-left: 20px;
+	}
+
+	.red h2, .green h2, .green_grad h2, .pink h2{
+		line-height: 20px;
+		font-size: 1.5em;
+	}
+
+	.red li, .green li, .green_grad li, .pink li{
+		font-size: 1.3em;
+		line-height: 24px;
+	}
+
+	.line{
+		width: 94%;
+		min-height: 1px;
+		float: right;
+		margin-bottom: 10px;
+	}
+ }
+
+/* =========================================================================
+	480 to 567
+   ========================================================================= */
+
+ @media (min-width: 480px) and (max-width: 567px) {
+	.main_image{
+		background-size: 100% 50% !important;
+	}
+	.logo{
+		width: 20%;
+		height: auto;
 	}
 
  }
 
-	/* 480 to 568 */
+/* =========================================================================
+	568 to 599
+   ========================================================================= */
 
- @media (min-width: 480px) and (max-width: 568px) {
+ @media (min-width: 568px) and (max-width: 599px) {
 	.main_image{
 		background-size: 100% 50% !important;
 	}
 
  }
 
-	/* 568 to 600 */
+/* =========================================================================
+	600 to 767
+   ========================================================================= */
 
- @media (min-width: 568px) and (max-width: 600px) {
+ @media (min-width: 600px) and (max-width: 767px) {
 	.main_image{
-		background-size: 100% 50% !important;
+ 		background-size: 127% 100%;
+ 		background-position: center;
+ 		height: 497px;
+ 	}
+	.navbar-form{
+		padding: 0;
+	}
+	.login{
+		border-radius: 5px;
+		width: 42%;
+		height: 40px;
+		margin-top: 0;
+		font-size: 1em;
+	}
+/*	.logo{
+		width: 70%;
+		margin-top: 30%;
+		margin-left: 10%;
+	}*/
+
+	.jumbotron h1{
+		font-size: 30px;
+	}
+
+	.pink p{
+		font-size: 17px;
+		line-height: 17px;
+		width: 50%;
+	}
+
+	.pink a{
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+
+	.red img{
+		float: none;
+	}
+
+	.green h1, .red h1{
+		font-size: 45px;
+		line-height: 20px;
+		margin: 0;
+		padding: 0;
+	}
+
+	.green h2, .red h2{
+		font-size: 20px;
+	}
+
+	.round, .round2{
+		line-height: 30px;
+		font-size: 10px;
+		padding-left: 7px;
+		padding-right: 7px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		vertical-align: middle;
+		color: #fff;
+		margin: 4px;
+	}
+
+	.red li, .green li{
+		font-size: 1em;
+	}
+
+	.line{
+		width: 70%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.green_grad li{
+		line-height: 25px;
+	}
+
+	.green_grad ul{
+		margin-top: 10%;
+	}
+
+	.col-md-2{
+		min-height: 0px;
+		padding: 0;
 	}
 
  }
 
- 	/* 600 to 768 */
+/* =========================================================================
+	767 to 1024
+   ========================================================================= */
 
- @media (min-width: 600px) and (max-width: 768px) {
-	.main_image{
-		background-size: 100% 50% !important;
-	}
-
- }
-
- 	/* 768 to 1024  ipad portrait */
-
- @media (min-width: 768px) and (max-width: 1024px) {
+ @media (min-width: 767px) and (max-width: 1024px) {
  	.main_image{
  		background-size: 127% 100%;
  		background-position: center;
