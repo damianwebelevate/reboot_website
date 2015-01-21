@@ -28,54 +28,229 @@
         <![endif]-->
 
 <!-- ======================================================================================
-        visible iphone android small device from 320px to 480px
+        
+
+
+
+
+                      iphone and small devices ONLY
+
+
+
+
+
 ======================================================================================= -->
+<!-- ======================================================================================
+        main image and navigation 
+        visible iphone android small device from 320px to 480px
+        hidden on all devices except the above
+======================================================================================= -->
+<div id="wrapper_iphone_and_smaller" class="hidden-lg hidden-md hidden-sm visible-xs">
 <div class="jumbotron iphone">
-  <div class="container-fluid">
+  <div class="container-fluid no_padding">
     <div class="row-fluid">
       <nav class="navbar" role="navigation">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed menu_button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <div class="col-xs-12">
             <span class="sr-only">Toggle navigation</span>
-            <span style="color: #000; font-size: 20px;" class="glyphicon glyphicon-align-justify"></span>
-          </button>
-          <div class="col-xs-10 col-xs-offset-2">
-                  <a role="button" href="index.html"><img class="logo" src="img/logo.png"/></a>
-                </div>
+              <img role="button" class="navbar-toggle collapsed menu_button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" src="img/menu/menu_button_smaller.png" />
+              <a role="button" href="index.html"><img class="logo" src="img/logo.png"/></a>
+          </div>
         </div> <!-- close navbar header -->
         <!-- menu itself -->
         <div id="navbar" class="navbar-collapse collapse no_padding">
-                <div class="col-xs-4 pull-right no_padding">
-                  <form class="navbar-form pull-right" role="form">
-                    <div class="form-group">
-                      <button class="btn btn-sign_up btn-xs" role="button">Sign Up</button>
-                    </div>
-                    <div class="form-group">
-                      <button class="btn btn-log_in btn-xs" role="button">Login</button>
-                    </div> 
-                  </form>
-                </div> <!-- close pull-right only visible on small devices -->
-              </div><!--/.navbar-collapse -->
-          </nav>
-        </div><!-- close menu -->
+          <div class="col-xs-4 pull-right no_padding">
+            <form class="navbar-form pull-right" role="form">
+              <div class="form-group">
+                <button class="btn btn-sign_up wide" role="button">Sign Up</button>
+              </div>
+              <div class="form-group">
+                <button class="btn btn-log_in wide" role="button">Login</button>
+              </div> 
+            </form>
+          </div> <!-- close pull-right only visible on small devices -->
+        </div><!--/.navbar-collapse -->
+      </nav><!-- close navbar -->
+      <div class="four"></div>
+    </div><!-- row-fluid -->
+  </div><!-- close container-fluid -->
 <div class="clearfix"></div>
-        <!-- quick launch buttons -->
-        
-        <div class="col-xs-10 col-xs-offset-2 no_padding">
-              <button class="btn login">Find jobs matches<span class="glyphicon glyphicon-circle-arrow-down pull-right"></span></button>
-              <div class="two"></div>
-              <button class="btn login">find jobs by location<span class="glyphicon glyphicon-globe pull-right"></span></button>
-        </div><!-- close quick launch -->
-    </div><!-- close row-fluid -->
+<!-- quick launch buttons -->  
+<div class="four"></div>
+<div class="container-fluid">
+    <div class="no_padding">
+          <button class="btn login percent">Find jobs matches<span class="glyphicon glyphicon-circle-arrow-down pull-right"></span></button>
+          <div class="two"></div>
+          <button class="btn login percent">find jobs by location<span class="glyphicon glyphicon-globe pull-right"></span></button>
+    </div><!-- close quick launch -->
   </div><!-- close container-fluid -->
 </div><!-- close jumbotron iphone -->
 <div class="clearfix"></div>
 <!-- end iphone and small devices -->
+<!-- ======================================================================================
+        the "pink" section after main image
+======================================================================================= -->
+<div class="jumbotron pink no_padding" style="margin-bottom: 0px;">
+  <div class="container-fluid">
+    <div class="col-md-6 col-md-offset-1 col-sm-8">
+    <h1>We are Job Match</h1>
+    <p>Job Match is a job search website that aims to connect job seekers and employers.</p>
+    <p><a href="#" role="button" class="btn btn-white">see how it works</a></p>
+  </div>
+  </div>
+  <div class="clearfix"></div>
+</div><!-- close second jumbotron -->
+<div class="clearfix"></div>
 
+<!-- ======================================================================================
+        the employee section
+======================================================================================= -->
+<div class="jumbotron red">
+  <div class="container-fluid no_padding">
+    <div class="col-xs-12 top_bot">
+      <h1>Job Seekers</h1>
+      <h2>Find The Job You Love!</h2>
+      <ul>
+        <li><span class="round3">1</span>Quickly find jogs that match you</li>
+        <li><span class="round3">2</span>View employer profile</li>
+        <li><span class="round3">3</span>View jobs by location</li>
+      </ul>
+      <a href="#" class="btn login_red" role="button" >find your matches</a>
+    </div>
+  </div>
+</div>
+<!-- ======================================================================================
+        the employer section
+======================================================================================= -->
+<div class="jumbotron green">
+  <div class="container-fluid no_padding">
+    <div class="col-xs-12 top_bot">
+      <h1>Employers</h1>
+      <h2>Find The Right Person For The Job!</h2>
+      <ul>
+        <li><span class="round4">1</span>Advertise jobs with minimum effort</li>
+        <li><span class="round4">2</span>Review job seekers profiles</li>
+        <li><span class="round4">3</span>Contact job seekers</li>
+      </ul>
+      <a href="#" class="btn login_small" role="button" >find your matches</a>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<!-- ======================================================================================
+        Why sign up section
+======================================================================================= -->
+  <!-- why sign up box -->
+<div class="jumbotron green_grad" style="margin-top: 5px; padding-bottom: 20px;">
+  <div class="container-fluid">
+    <h1 style="text-align: center;">Why sign up?</h1>
+      <div class="col-xs-12">
+        <h2>Job Seeker</h2>
+          <div class="line"></div>
+          <ul>
+            <li>Search for jobs by category</li>
+            <li>Search for jobs using geo-location</li>
+            <li>Create a user profile quickly</li>
+            <li>Apply for jobs with minimum effort</li>
+            <li>Create contacts</li>
+            <li>Advertise yourself in certain categories of jobs</li>
+            <li>Track jobs that you have applied for</li>
+            <li>Ask questions on our forum</li>
+          </ul>
+          <div class="col-xs-12">
+            <a href="#" role="button" class="btn btn-white">sign up today</a>
+          </div>
+      </div><!-- close col-12 -->
+      <div class="col-xs-12">
+        <h2>Employers</h2>
+          <div class="line"></div>
+          <ul>
+            <li>Advertise jobs with minimum effort</li>
+            <li>Review job seekers profiles that are relevant to the job</li>
+            <li>Contact job seekers</li>
+            <li>Receive applications</li>
+            <li>Quickly Post and Withdraw Job Advertisments</li>
+            <li>Three simple price plans or once off payment</li>
+            <li>Up to the minute data...Live</li>
+          </ul>
+          <div class="col-xs-12">
+            <a href="#" role="button" class="btn btn-white">sign up today</a>
+          </div>
+      </div><!-- close col-xs-12 -->
+  </div><!-- close container-fluid -->
+</div><!-- close jumbotron -->
+<div class="clearfix"></div>
+<!-- ======================================================================================
+        second last section on page (pink)
+======================================================================================= -->
+<div class="jumbotron pink">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="col-xs-12">
+        <h1>Help & Tips</h1>
+        <div class="line" ></div>
+        <p>Search for jobs by category</p>
+        <p>Search for jobs using geo-location</p>
+        <p>Create a user profile quickly</p>
+      </div>
+    </div><!-- /row fluid -->
+  </div><!-- /container fluid -->
+<div class="clearfix"></div>
+  <div class="container-fluid no_padding">
+    <div class="col-xs-6 col-xs-offset-1 top_bot">
+      <img src="img/logo.png" />
+    </div>
+<div class="clearfix"></div>
+    <div class="col-xs-6 no_padding">
+      <ul style="text-transform: uppercase; color: #fff; list-style-type: none;">
+        <li><a href="#">find job matches</a></li>
+        <li><a href="#">find jobs by location</a></li>
+        <li><a href="#">products</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">terms & conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div><!-- close col-xs-6 -->
+    <div class="col-xs-6 no_padding">
+      <div class="pull-right" style="margin-right: 20px;">
+        <img src="img/facebook-icon.png" />
+        <img src="img/twitter-icon.png" />
+        <h2 style="text-align:center;">Find US on</h2>
+      </div>
+    </div><!-- close col-xs-6 -->
+  </div>
+    </div><!-- close container fluid -->
+</div><!-- close jumbotron -->
+
+<div class="clearfix"></div>
+</div><!-- close wrapper iphone and smaller -->
+<!-- ======================================================================================
+       end of iphone and smaller devices i.e col-xs
+======================================================================================= -->
+
+
+
+
+
+<!-- ======================================================================================
+        
+
+
+
+
+                                    desktop and above ONLY
+
+
+
+
+
+======================================================================================= -->
+
+<div id="wrapper_desktop" class="visible-md visible-lg hidden-sm hidden-xs">
 <!-- ======================================================================================
         the main image on the page housing logo navigation and quick launch buttons
 ======================================================================================= -->
-      <div class="jumbotron main_image hidden-xs">
+      <div class="jumbotron main_image">
         <div class="container-fluid no_padding">
           <nav class="navbar hidden-lg hidden-md" role="navigation">
               <div class="navbar-header">
@@ -121,9 +296,9 @@
 <div class="clearfix"></div>
           <div class="four"></div>
             <div class="col-md-4 col-md-offset-1 col-sm-6 no_padding">
-              <button class="btn login">Find jobs matches<span class="glyphicon glyphicon-circle-arrow-down pull-right"></span></button>
+              <button class="btn login percent">Find jobs matches<span class="glyphicon glyphicon-circle-arrow-down pull-right"></span></button>
               <div class="two"></div>
-              <button class="btn login">find jobs by location<span class="glyphicon glyphicon-globe pull-right"></span></button>
+              <button class="btn login percent">find jobs by location<span class="glyphicon glyphicon-globe pull-right"></span></button>
             </div>
 <div class="clearfix"></div>
         </div>
@@ -148,7 +323,7 @@
 <div class="clearfix"></div>
 
 <!-- ======================================================================================
-        visible on desktop only
+        Employees and employers red and green boxes
 ======================================================================================= -->
   <!-- Employees Box class red -->
       <div class="jumbotron red hidden-sm hidden-xs" style="margin-top: 5px;">
@@ -198,41 +373,6 @@
       <!-- End Employers Box -->
 
 <!-- ======================================================================================
-        section visible on only ipad portrait/landscape
-======================================================================================= -->
-
-<div class="visible-sm visible-xs">
-  <div class="jumbotron" style="background-color: #fff; margin-top: 5px;">
-  <div class="container-fluid no_padding">
-    <div class="col-sm-6 red  top_bot">
-      <h1>Job Seekers</h1>
-      <h2>Find The Job You Love!</h2>
-      <ul>
-        <li><span class="round2">1</span>Quickly find jogs that match you</li>
-        <li><span class="round2">2</span>View employer profile</li>
-        <li><span class="round2">3</span>View jobs by location</li>
-      </ul>
-      <a href="#" class="btn login_red" role="button" >find your matches</a>
-      <img src="img/job-seeker-profile.png"/>
-    </div>
-    <div class="col-sm-6 green  top_bot pull_right">
-      <h1>Employers</h1>
-      <h2>Find The Right Person For The Job!</h2>
-      <ul>
-        <li><span class="round">1</span>Advertise jobs with minimum effort</li>
-        <li><span class="round">2</span>Review job seekers profiles</li>
-        <li><span class="round">3</span>Contact job seekers</li>
-      </ul>
-      <a href="#" class="btn login_small" role="button" >find your matches</a>
-      <img src="img/employer-box.png" style="float: right;"/>
-    </div>
-    <div class="clearfix"></div>
-  </div>
-</div>
-</div>
-
-
-<!-- ======================================================================================
         Why sign up section
 ======================================================================================= -->
   <!-- why sign up box -->
@@ -257,7 +397,7 @@
                     <li>Ask questions on our forum</li>
                   </ul>
                   <div class="col-md-5 col-sm-6 top_bot">
-                  <p style="text-align: center;"><a href="#" role="button" class="btn btn-white">sign up now</a></p>
+                  <p style="text-align: center;"><a href="#" role="button" class="btn btn-white">sign up today</a></p>
                   </div>
                 </div>
                 <div class="col-md-2">
@@ -278,7 +418,7 @@
                       <li>Up to the minute data...Live</li>
                     </ul>
                     <div class="col-md-5 col-sm-6 top_bot">
-                    <p style="text-align: center;"><a href="#" role="button" class="btn btn-white">sign up now</a></p>
+                    <p style="text-align: center;"><a href="#" role="button" class="btn btn-white">sign up today</a></p>
                     </div>
                   </div>
 
@@ -293,17 +433,17 @@
       <div class="jumbotron pink" style="padding-top: 30px; padding-bottom: 50px;">
         <div class="container-fluid">
               <div class="row-fluid">
-                <div class="col-md-4 col-sm-5">
+                <div class="col-md-4">
                   <h1>Help & Tips</h1>
                   <div class="line2" ></div>
                   <p>Search for jobs by category</p>
                   <p>Search for jobs using geo-location</p>
                   <p>Create a user profile quickly</p>
                 </div>
-                <div class="col-md-4 col-sm-4">
+                <div class="col-md-4">
                   <img src="img/logo.png" style="width: 100%; height: auto;" />
                </div>
-                <div class="col-md-4 col-sm-3">
+                <div class="col-md-4">
                   <div class="top_bot pull-right">
                   <img src="img/facebook-icon.png" />
                   <img src="img/twitter-icon.png" />
@@ -326,16 +466,15 @@
           <li><a href="#">products</li>
           <li><a href="#">about us</li>
           <li><a href="#">terms & conditions</li>
+          <li><a href="#">Privacy Policy</a></li>
         </ul>
       </div>
           </div> <!-- /container -->       
       <div class="clearfix"></div>
+</div><!-- close wrapper desktop -->
 
 
-      <div class="verticle" style="color: pink; text-align: center;"><h2>&copy 2015 jobmatch.ie<h2></div>
-
-
-
+<div class="vertical"><h2>Copyright &copy 2015 jobmatch.ie<h2></div>
 
           <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
               <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
