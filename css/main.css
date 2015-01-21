@@ -12,6 +12,18 @@ spacings
   padding-bottom: 30px;
 }
 
+.top_bot2{
+  padding-top: 50px;
+  padding-bottom: 50px;  
+}
+
+.top_bot3{
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;  
+}
+
 .two{
   line-height: 10px;
   height: 20px;
@@ -435,6 +447,13 @@ margin: 4px;
   border-bottom: 2px solid #fff;
 }
 
+.line2{
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 10%;
+  border-bottom: 2px solid #fff;
+}
+
 .green_grad li{
   line-height: 45px;
 }
@@ -500,6 +519,10 @@ margin: 4px;
   height: auto;
 }
 
+.menu_button:hover{
+  cursor: pointer;
+}
+
 .logo, .menu_button{
   display: inline-block;
 }
@@ -543,3 +566,4 @@ margin: 4px;
   margin: 0 auto;
   padding-left: 50px;
 }
+
