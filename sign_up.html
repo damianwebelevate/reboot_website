@@ -22,29 +22,10 @@
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
     </head>
-    <body class="no_padding green_grad no_margin">
+    <body class="green_back">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-<!-- ======================================================================================
-        
-
-
-
-
-                      iphone and small devices ONLY
-
-
-
-
-
-======================================================================================= -->
-<!-- ======================================================================================
-        main image and navigation 
-        visible iphone android small device from 320px to 480px
-        hidden on all devices except the above
-======================================================================================= -->
 <div id="wrapper_iphone_and_smaller" class="hidden-lg hidden-md visible-sm visible-xs">
   <div class="container-fluid no_padding">
     <div class="row-fluid">
@@ -83,7 +64,7 @@
       <div class="col-md-4 col-sm-6">
         <form class="navbar-form navbar-right" role="form">
           <div class="form-group">
-            <a href="sign_up.html" class="btn btn-sign_up btn-md" role="button">Sign Up</a>
+            <a href="login.html" class="btn btn-sign_up btn-md" role="button">Log In</a>
           </div>
           <div class="form-group">
             <a href="index.html" class="btn btn-log_in btn-md" role="button">Home</a>
@@ -93,17 +74,29 @@
 <div class="clearfix"></div>
 </div><!-- hidden -->
       <div class="col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-        <p style="text-align: center;"><a role="button" href="index.html"><img class="logo_login" src="img/logo.png"/></a></p>
+<!--         <p style="text-align: center;"><a role="button" href="index.html"><img class="logo_login" src="img/logo.png"/></a></p> -->
         <div class="four"></div>
           <form role="form">
             <div class="form-group">
-              <input type="email" autofocus required placeholder="Email" class="form-control">
+              <input type="text" autofocus required placeholder="Name" class="form-control">
             </div>
             <div class="form-group">
-              <input type="password" required placeholder="Password" class="form-control">
+              <input type="email" required placeholder="Email" class="form-control">
             </div>
-              <div class="form-group">
-              <button type="submit" role="button" class="btn btn-white2">Log In</button>
+            <div class="form-group">
+              <input type="text" autofocus required placeholder="Phone" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="text" required placeholder="User Name" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" autofocus required placeholder="Password" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" required placeholder="Repeat Password" class="form-control">
+            </div>
+            <div class="form-group">
+              <button type="submit" role="button" class="btn btn-white2">Register</button>
             </div>
           </form>
         </div><!-- close quick launch -->
@@ -112,9 +105,6 @@
 <div class="clearfix"></div>
 </div>
 </div>
-
-
- 
 
 
 
