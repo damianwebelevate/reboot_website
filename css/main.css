@@ -83,7 +83,6 @@ a:hover{
 }
 
 button, .btn-md{
-	margin: 5px;
 	color: white;
 	font-size: 17px;
   width: 100px;
@@ -179,6 +178,33 @@ button, .btn-md{
   	background-image: none;
 }
 
+
+.btn-white2 {
+  text-transform: uppercase;
+  border: 2px solid #ffffff;
+  width: 100%;
+  background-color: transparent;
+}
+
+.btn-white2:hover,
+.btn-white2:focus {
+    /* background-color: #EC207A;*/
+    background-position: 0 -15px;
+    color: #000;
+  }
+
+.btn-white2:active,
+.btn-white2.active {
+    /*background-color: #EC207A;*/
+    border-color: #EC207A;
+}
+.btn-white2:disabled,
+.btn-white2[disabled] {
+    /*background-color: #EC207A;*/
+    background-image: none;
+}
+
+
 /*thanks to: http://css-tricks.com/css3-gradients/*/
 .pink {
   /* Safari 4, Chrome 1-9, iOS 3.2-4.3, Android 2.1-3.0 */
@@ -201,6 +227,10 @@ button, .btn-md{
 
   margin-top: 5px;
   padding: 0px;
+}
+
+.no_margin{
+  margin: 0;
 }
 
 
