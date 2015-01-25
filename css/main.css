@@ -229,6 +229,29 @@ button, .btn-md{
   padding: 0px;
 }
 
+.pink_menu{
+  /* Safari 4, Chrome 1-9, iOS 3.2-4.3, Android 2.1-3.0 */
+  background-image:
+    -webkit-gradient(linear, left top, right top, from(#EC207A), to(#E75460));
+  /* Safari 5.1, iOS 5.0-6.1, Chrome 10-25, Android 4.0-4.3 */
+  background-image:
+    -webkit-linear-gradient(left, #EC207A, #E75460);
+  /* Firefox 3.6 - 15 */
+  background-image:
+    -moz-linear-gradient(left, #EC207A, #E75460);
+  /* Opera 11.1 - 12 */
+  background-image:
+    -o-linear-gradient(left, #EC207A, #E75460);
+  /* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
+  background-image:
+    linear-gradient(to right, #EC207A, #E75460);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EC207A', endColorstr='#E75460', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+
+  margin-top: 5px;
+  padding: 0px;
+}
+
 .green_back{
   /* Safari 4, Chrome 1-9, iOS 3.2-4.3, Android 2.1-3.0 */
   background-image:
@@ -322,7 +345,6 @@ button, .btn-md{
 }
 .green h1{
 	color: #73BA74;
-  font-size: inherit;
 }
 
 .green ul{
@@ -535,7 +557,6 @@ margin: 4px;
 
 .breadcrumb a:hover{
   text-decoration: none;
-  border: 1px solid blue;
 }
 
 
@@ -620,3 +641,82 @@ margin: 4px;
   padding-left: 50px;
 }
 
+.menu_bar ul{
+  margin: 0;
+}
+
+.menu_bar{
+  width: 100%;
+  min-height: 1px;
+  margin-top: 0;
+}
+
+.menu_bar a{
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.menu_bar img{
+  width: 55px;
+  height: auto;
+  position: fixed;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+}
+
+
+.menu_bar a{
+  color: #fff;
+}
+
+.menu_bar a:hover{
+  text-decoration: none !imprtant
+}
+
+.color{
+  color: #3FBA00;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+
+.color2 span{
+  color: #3FBA00;
+  font-size: 1.6em;
+}
+
+
+
+#form, .btn{
+  font-size: 1.6em;
+}
+
+
+.left_right{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+
+.disc{
+  border: 1px solid green; 
+  padding: 5px; 
+  border-radius: 50px;
+  -o-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+}
+
+a.btn.login.percent {
+padding-top: 3%;
+}
